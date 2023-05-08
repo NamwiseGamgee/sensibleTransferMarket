@@ -1,0 +1,15 @@
+.single-player{
+    border: 1px solid lime;
+    background-color: #ACB1D6;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.single-player img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.bold{
+    font-weight: 800;
+}
