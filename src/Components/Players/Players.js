@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Players.css'
 import Player from '../Player/Player';
+import Wishlist from '../Wishlist/Wishlist';
 
 const Players = () => {
     const [players, setPlayers] = useState([]);
@@ -21,7 +22,7 @@ const Players = () => {
                 }
             </div>
             <div>
-                Cart
+               <Wishlist></Wishlist>
             </div>
         </div>
     );

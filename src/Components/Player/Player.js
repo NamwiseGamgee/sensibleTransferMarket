@@ -3,7 +3,9 @@ import './Player.css'
 
 const Player = (props) => {
     const {isAvailable, transferFee, picture, age, country, name} = props.player;
-    
+    const addToWishlist = (id , name) => {
+        console.log(id, name);
+    }
     return (
         <div className='single-player'>
             <img src={picture} alt="" />
@@ -12,6 +14,7 @@ const Player = (props) => {
             <p><small>Country: {country}</small></p>
             <p>Market Value: {transferFee}</p>
             <p>Availability: <span className='bold'>{isAvailable ? 'Yes':'No'}</span></p>
+            <button onClick={() => addToWishlist(props.player.id, name)} className='wishlist-btn'>Wishlist</button>
 
         </div>
     );

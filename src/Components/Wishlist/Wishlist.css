@@ -1,0 +1,10 @@
+.wishlist{
+    background-color: coral;
+    height: fit-content;
+    padding: 15px;
+    font-weight: 700;
+    color: white;
+    margin-left: 20px;
+    position: sticky;
+    top: 0;
+}
